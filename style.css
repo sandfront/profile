@@ -1,5 +1,11 @@
 body {
-  background-color: #DDDDDD;
+  background-color: #B4BABA;
+  background-image: url("https://static.pexels.com/photos/417222/pexels-photo-417222.jpeg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Lato', sans-serif;
   color: #7F7F7F;
   font-size: 1em;
