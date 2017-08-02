@@ -1,0 +1,96 @@
+body {
+  background-color: #DDDDDD;
+  font-family: 'Lato', sans-serif;
+  color: #7F7F7F;
+  font-size: 1em;
+  line-height: 150%;
+  font-weight: lighter;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #F7F7F7;
+  border-radius: 3px;
+  padding: 15px 30px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+  margin: 12px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img-medium {
+  max-width: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+td {
+  padding: 10px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3F3F3F;
+  line-height: 110%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+i {
+  font-size: 0.85em;
+}
+
+a {
+  text-decoration: none;
+  color: #666666
+}
+
+a:hover {
+  color: #464646
+}
